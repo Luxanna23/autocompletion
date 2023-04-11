@@ -8,10 +8,10 @@
 </head>
 
 <body>
-<div id="result">
+    <div id="result">
     </div>
-
 </body>
 
 <script src="script.js"></script>
+
 </html>
