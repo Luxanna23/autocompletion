@@ -8,6 +8,7 @@
 </head>
 
 <body>
+<header><a class="retourpage" href="./index.php">Retour sur la page de recherche</a></header>
     <div id="result">
     </div>
 </body>

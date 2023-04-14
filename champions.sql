@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le : mar. 11 avr. 2023 à 08:01
+-- Généré le : ven. 14 avr. 2023 à 08:03
 -- Version du serveur : 8.0.30
 -- Version de PHP : 8.1.10
 
@@ -29,9 +29,9 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `champions` (
   `id` int NOT NULL,
-  `nom` varchar(255) NOT NULL,
-  `categorie` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `nom` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `categorie` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Déchargement des données de la table `champions`
@@ -55,7 +55,7 @@ INSERT INTO `champions` (`id`, `nom`, `categorie`) VALUES
 (15, 'Kalista', 'Adc'),
 (16, 'Hecarim', 'jungle'),
 (17, 'Nautilus', 'support'),
-(18, 'viego', 'jungle'),
+(18, 'Viego', 'jungle'),
 (19, 'Katarina', 'mid'),
 (20, 'Sona', 'support');
 
