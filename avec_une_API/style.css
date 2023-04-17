@@ -5,7 +5,7 @@ position:relative;
 
 main {
 text-align: center;
-margin-top: 15%;
+margin-top: 5%;
 }
 
 h1 {
@@ -31,4 +31,19 @@ h1 {
     width: 50%;
     border: 2px solid #333a6e;
     display: none;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(16, 0, 67);
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(67, 41, 159);
+}
+
+.champion-image {
+    width: 500px;
 }

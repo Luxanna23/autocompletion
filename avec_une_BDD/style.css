@@ -1,0 +1,44 @@
+body{
+background:#d7f2ff;
+position:relative;
+}
+
+main {
+text-align: center;
+margin-top: 5%;
+}
+
+h1 {
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #175371;
+    text-shadow: 3%;
+}
+
+.bar {
+    width: 40%;
+    font-size: 150%;
+    border-radius: 30px 30px;
+    padding: 1%;
+}
+
+.retourpage {
+    text-align: center;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#trait {
+    width: 50%;
+    border: 2px solid #333a6e;
+    display: none;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(16, 0, 67);
+}
+
+a:hover {
+    color: rgb(67, 41, 159);
+}

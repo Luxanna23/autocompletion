@@ -13,7 +13,7 @@
         <h1>Barre de Recherche</h1>
 
         <form method="GET">
-            <input class="bar" type="text" id="search-bar" name="search" placeholder="Rechercher...">
+            <input class="bar" type="text" id="search-bar" name="search" placeholder="Chercher un champion...">
         </form>
 
         <div id="result"></div>
